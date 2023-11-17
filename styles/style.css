@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.list{
+    display: flex;
+    gap:30px;
+    list-style: none;
+    align-items: center;
+}
+.logo{
+   margin-left: 167px;
+   cursor: pointer;
+}
+.wrapper{
+    align-items: center;
+    margin-top: 20px;
+    background-color: #D3CBC5;
+    height: 79px;
+    padding-top: 10px;
+}
+.txt1{
+    margin-left: 206px;
+}
+ul li {
+    text-decoration: none;
+    color: #1B1A1A;
+    font-family: 'Nunito Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 60px;
+}
+li {
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+}
+li:hover {
+    color: rgb(255, 255, 255);
+}
+.photo{
+    margin-left: 200px;
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+}
+.txt2{
+    position: absolute;
+    width: 292px;
+    height: 1px;
+    background: #6B6C71;
+    margin-left: 165px;
+    margin-top: 216px;
+}
+.txt3{
+    position: absolute;
+    width: 1px;
+    height: 261px;
+    background: #6B6C71;
+    margin-left: 189px;
+    margin-top: 188px;
+}
+.txt4{
+    display: flex;
+    width: 73px;
+    height: 18px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #2C314B;
+    font-family: 'Nunito Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    margin-left: 210px;
+    padding-top: 240px;
+}
+.txt5{
+    color: #1B1A1A;
+    font-family: 'Nunito Sans';
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    margin-left: 210px;
+    padding-top: 7px;
+}
+.txt6{
+    color: #121211;
+    font-family:' Nunito Sans';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    margin-left: 210px;
+    padding-top: 15px;
+}
+.txt6 span {
+    color: #878787;
+    font-family: 'Nunito Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+}
+.btn{
+    width: 114px;
+    height: 37px;
+    flex-shrink: 0;
+    background: #1C1B1B;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    font-family: 'Nunito Sans';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    margin-left: 210px;
+    padding-left: 20px;
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+}
+.btn:hover {
+    color: rgb(160, 155, 155);
+    background-color: #3b3b3a;
+}
+.main__wrapper{
+    background: 
+    url(../static/images/mockup-white-wall-loft-style-house-with-sofa-accessories-room-3d-rendering\ 1.png) center center;
+    
+}
+.txt7{
+margin-top: 200px;
+}
+.txt8{
+    color: #282828;
+    font-family: 'Nunito Sans';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; 
+    padding-top: 50px;
+}
+.btn2{
+    width: 114px;
+    height: 37px;
+    flex-shrink: 0;
+    display: flex;
+    padding-left: 17px;
+    align-items: center;
+    color: #1B1A1A;
+    text-align: center;
+    font-family: 'Nunito Sans';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    background-color: #E5E6E6;
+    transition: all 0.5s ease-in;
+    border: none;
+    margin-top: 16px;
+}
+.btn2:hover {
+    background-color: #3b3b3a;
+    color: #FFF;
+}
+.card{
+    width: 350px;
+    height: 449px;
+    flex-shrink: 0;
+    background: #E5E6E6;
+    padding-left: 31px;
+    margin-top: 94px;
+    transition: all 0.5s ease-in;
+}
+.card:hover {
+    box-shadow: -1px 1px 35px -2px rgba(156, 154, 157, 0.75);
+    -webkit-box-shadow: -2px 1px 35px -2px rgba(176, 166, 177, 0.75);
+    -moz-box-shadow: -2px 1px 35px -2px rgba(186, 183, 187, 0.75);
+}
+.card2:hover{
+    box-shadow: -1px 1px 35px -2px rgba(156, 154, 157, 0.75);
+    -webkit-box-shadow: -2px 1px 35px -2px rgba(176, 166, 177, 0.75);
+    -moz-box-shadow: -2px 1px 35px -2px rgba(186, 183, 187, 0.75);
+}
+.photo2{
+    padding-left: 90px;
+    padding-top: 30px;
+}
+.wrapper3{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+}
+.card2{
+    width: 350px;
+    height: 449px;
+    flex-shrink: 0;
+    background: #E5E6E6;
+    padding-left: 31px;
+    margin-left: 130px;
+    margin-top: 94px;
+    transition: all 0.5s ease-in;
+}
+.photo3{
+    width: 350px;
+    height: 260px;
+    flex-shrink: 0;
+    padding-right: 50px;
+    margin-top: 40px;
+}
+.photo4{
+    margin-top: 40px;
+    margin-left: 68px;
+}
+.vector__left{
+    margin-top: 50px;
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+    
+}
+.vector__right{
+    padding-left: 74px;
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+}
